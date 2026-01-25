@@ -1,6 +1,6 @@
 {
   "name": "release-please-test",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Test repository for release-please fork features",
   "main": "index.js",
   "scripts": {
