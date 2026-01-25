@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/opencoreemr/release-please-test/compare/release-please-test-v1.0.0...release-please-test-v1.1.0) (2026-01-25)
+
+
+### Features
+
+* add farewell function ([0343942](https://github.com/opencoreemr/release-please-test/commit/034394222a104368a4d336f821bd238bbd3816ab))
+
 ## 1.0.0 (2026-01-25)
 
 
