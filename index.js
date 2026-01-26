@@ -14,4 +14,8 @@ function welcome(name) {
   return `Welcome aboard, ${name}!`;
 }
 
-module.exports = { greet, farewell, welcome };
+function celebrate(name) {
+  return `Congratulations, ${name}!`;
+}
+
+module.exports = { greet, farewell, welcome, celebrate };
