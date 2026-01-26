@@ -23,8 +23,15 @@ jobs:
           manifest-file: .release-please-manifest.json
 
       - name: Summary
+        env:
+          RELEASES_CREATED: ${{ steps.release.outputs.releases_created }}
+          PR: ${{ steps.release.outputs.pr }}
         run: |
-          echo "## Release Please Output" >> "$GITHUB_STEP_SUMMARY"
-          echo "" >> "$GITHUB_STEP_SUMMARY"
-          echo "releases_created: ${{ steps.release.outputs.releases_created }}" >> "$GITHUB_STEP_SUMMARY"
-          echo "pr: ${{ steps.release.outputs.pr }}" >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo "## Release Please Output"
+            echo ""
+            echo "releases_created: $RELEASES_CREATED"
+            echo '```json'
+            echo "$PR" | jq . 2>/dev/null || echo "$PR"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
