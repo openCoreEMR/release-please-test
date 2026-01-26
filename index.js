@@ -10,4 +10,8 @@ function farewell(name) {
   return `Goodbye, ${name}!`;
 }
 
-module.exports = { greet, farewell };
+function welcome(name) {
+  return `Welcome aboard, ${name}!`;
+}
+
+module.exports = { greet, farewell, welcome };
