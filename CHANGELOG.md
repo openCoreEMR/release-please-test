@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.1.0...release-please-test-v1.2.0) (2026-01-26)
+
+
+### Features
+
+* add welcome function ([838d4dd](https://github.com/openCoreEMR/release-please-test/commit/838d4ddacb6f3de02f7e272ce824c87b965f25dd))
+
+
+### Bug Fixes
+
+* properly quote release-please outputs in summary ([8a26fc8](https://github.com/openCoreEMR/release-please-test/commit/8a26fc8acb8e91032ce9ff195008904142b1d07d))
+
 ## [1.1.0](https://github.com/opencoreemr/release-please-test/compare/release-please-test-v1.0.0...release-please-test-v1.1.0) (2026-01-25)
 
 
