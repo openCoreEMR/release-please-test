@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Run Release Please
         id: release
-        uses: openCoreEMR/release-please-action@feat/annotated-tags-and-preview
+        uses: openCoreEMR/release-please-action@v4.4.0-oce.1
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
