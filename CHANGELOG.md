@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.3.0...release-please-test-v1.4.0) (2026-04-30)
+
+
+### Features
+
+* add thank function ([#7](https://github.com/openCoreEMR/release-please-test/issues/7)) ([9157f07](https://github.com/openCoreEMR/release-please-test/commit/9157f070d6ef8397dad51b0133614ed94c01201a))
+
 ## [1.3.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.2.0...release-please-test-v1.3.0) (2026-04-30)
 
 
