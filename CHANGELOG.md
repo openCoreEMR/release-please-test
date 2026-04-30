@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.2.0...release-please-test-v1.3.0) (2026-04-30)
+
+
+### Features
+
+* add celebrate function ([fa9f2e4](https://github.com/openCoreEMR/release-please-test/commit/fa9f2e44554dd8cd8bb12115fc323de91cb21080))
+
 ## [1.2.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.1.0...release-please-test-v1.2.0) (2026-01-26)
 
 
