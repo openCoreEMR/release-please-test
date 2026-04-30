@@ -18,4 +18,8 @@ function celebrate(name) {
   return `Congratulations, ${name}!`;
 }
 
-module.exports = { greet, farewell, welcome, celebrate };
+function thank(name) {
+  return `Thank you, ${name}!`;
+}
+
+module.exports = { greet, farewell, welcome, celebrate, thank };
