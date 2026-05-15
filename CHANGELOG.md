@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.4.0...release-please-test-v1.4.1) (2026-05-15)
+
+
+### Bug Fixes
+
+* trigger release-please to validate canonical pattern ([304c193](https://github.com/openCoreEMR/release-please-test/commit/304c1934a95786bd1c51c6a6303a969a7de86d4d))
+
 ## [1.4.0](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.3.0...release-please-test-v1.4.0) (2026-04-30)
 
 
