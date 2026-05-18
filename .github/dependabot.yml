@@ -1,5 +1,11 @@
 # Dependabot configuration for automated dependency updates
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+#
+# Prefix policy (so release-please only cuts releases for runtime changes):
+#   - Runtime deps  -> "fix(deps)"        => release-please bumps patch
+#   - Dev deps      -> "chore(deps-dev)"  => no version bump (still in changelog)
+#   - GitHub Actions / reusable workflows -> "chore(ci)" => no version bump
+# Dropping `include: scope` because the new prefixes already encode the scope.
 
 version: 2
 updates:
@@ -12,8 +18,8 @@ updates:
   - dependencies
   - npm
   commit-message:
-    prefix: deps
-    include: scope
+    prefix: fix(deps)
+    prefix-development: chore(deps-dev)
 
 # Monitor GitHub Actions
 - package-ecosystem: github-actions
@@ -24,5 +30,4 @@ updates:
   - dependencies
   - github-actions
   commit-message:
-    prefix: deps
-    include: scope
+    prefix: chore(ci)
