@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.2](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.4.1...release-please-test-v1.4.2) (2026-05-20)
+
+
+### Bug Fixes
+
+* **deps:** bump faux-runtime from 1.0.0 to 1.0.1 ([f17669c](https://github.com/openCoreEMR/release-please-test/commit/f17669cb530bc3f30ccbd659e7b9b7e4693666da))
+* trigger release-please via in-job App-token mint ([d52eeaa](https://github.com/openCoreEMR/release-please-test/commit/d52eeaa95f5aff9e6c56024b5f882dd0be0ffd36))
+
 ## [1.4.1](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.4.0...release-please-test-v1.4.1) (2026-05-15)
 
 
