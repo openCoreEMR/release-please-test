@@ -34,4 +34,8 @@ function encourage(name) {
   return `You've got this, ${name}!`;
 }
 
-module.exports = { greet, farewell, welcome, celebrate, thank, remind, apologize, encourage };
+function congratulate(name) {
+  return `Well done, ${name}!`;
+}
+
+module.exports = { greet, farewell, welcome, celebrate, thank, remind, apologize, encourage, congratulate };
