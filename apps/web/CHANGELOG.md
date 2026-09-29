@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/openCoreEMR/release-please-test/compare/web-v1.4.6...web-v1.5.0) (2026-09-29)
+
+
+### Features
+
+* **web:** add thanks() ([50c6cc7](https://github.com/openCoreEMR/release-please-test/commit/50c6cc763af9617b8f9b2dc9251fae6b40a84033))
+
 ## [1.4.6](https://github.com/openCoreEMR/release-please-test/compare/web-v1.4.5...web-v1.4.6) (2026-09-29)
 
 

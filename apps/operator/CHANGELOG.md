@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/openCoreEMR/release-please-test/compare/operator-v1.0.6...operator-v1.1.0) (2026-09-29)
+
+
+### Features
+
+* **operator:** add offboard() ([e1813a1](https://github.com/openCoreEMR/release-please-test/commit/e1813a152119a9269ac0933907d81d0fbf145a12))
+
 ## [1.0.6](https://github.com/openCoreEMR/release-please-test/compare/operator-v1.0.4...operator-v1.0.6) (2026-09-29)
 
 
