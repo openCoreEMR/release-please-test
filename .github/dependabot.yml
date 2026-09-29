@@ -11,6 +11,10 @@ version: 2
 updates:
 # Monitor npm dependencies
 - package-ecosystem: npm
+  cooldown:
+    exclude:
+    - openCoreEMR/*
+    - opencoreemr/*
   directory: /
   schedule:
     interval: daily
@@ -23,6 +27,10 @@ updates:
 
 # Monitor GitHub Actions
 - package-ecosystem: github-actions
+  cooldown:
+    exclude:
+    - openCoreEMR/*
+    - opencoreemr/*
   directory: /
   schedule:
     interval: daily
