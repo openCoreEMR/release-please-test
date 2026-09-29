@@ -26,4 +26,8 @@ function remind(name) {
   return `Don't forget, ${name}...`;
 }
 
-module.exports = { greet, farewell, welcome, celebrate, thank, remind };
+function apologize(name) {
+  return `Sorry, ${name}.`;
+}
+
+module.exports = { greet, farewell, welcome, celebrate, thank, remind, apologize };
