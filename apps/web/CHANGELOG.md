@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.5](https://github.com/openCoreEMR/release-please-test/compare/web-v1.4.4...web-v1.4.5) (2026-09-29)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @rpt/api-contracts bumped to 1.3.0
+
 ## [1.4.4](https://github.com/openCoreEMR/release-please-test/compare/web-v1.4.3...web-v1.4.4) (2026-09-29)
 
 

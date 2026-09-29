@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.2.0...api-contracts-v1.3.0) (2026-09-29)
+
+
+### Features
+
+* **api-contracts:** add encourage() ([9d46f12](https://github.com/openCoreEMR/release-please-test/commit/9d46f12a2869b007b57d4ef819a353ee7d077285))
+
 ## [1.2.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.1.0...api-contracts-v1.2.0) (2026-09-29)
 
 
