@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.6](https://github.com/openCoreEMR/release-please-test/compare/operator-v1.0.4...operator-v1.0.6) (2026-09-29)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @rpt/api-contracts bumped to 1.4.0
+
 ## [1.0.5](https://github.com/openCoreEMR/release-please-test/compare/operator-v1.0.4...operator-v1.0.5) (2026-09-29)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "@rpt/api-contracts",
   "private": true,
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Shared contracts both apps depend on (stands in for oce-fe-harness packages/api-contracts)",
   "main": "index.js",
   "license": "Apache-2.0"

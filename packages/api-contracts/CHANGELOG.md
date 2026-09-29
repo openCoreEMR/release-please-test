@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.3.0...api-contracts-v1.4.0) (2026-09-29)
+
+
+### Features
+
+* **api-contracts:** add congratulate() ([b385c4d](https://github.com/openCoreEMR/release-please-test/commit/b385c4d9ac594c36f20ac8a9d65b817c85b01708))
+
 ## [1.3.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.2.0...api-contracts-v1.3.0) (2026-09-29)
 
 
