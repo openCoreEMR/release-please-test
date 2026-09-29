@@ -11,7 +11,7 @@ permissions: {}
 jobs:
   release-please:
     if: ${{ !github.event.repository.is_template }}
-    uses: opencoreemr/github-workflows-public/.github/workflows/release-please-reusable.yml@1.1.0
+    uses: opencoreemr/github-workflows-public/.github/workflows/release-please-reusable.yml@04d2a7dd3709fe122dbd93c077e5cfd8a098a63e # 1.1.1 candidate (release-please-action v5.0.0-oce.4)
     permissions:
       contents: write
       pull-requests: write
