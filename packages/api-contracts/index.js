@@ -30,4 +30,8 @@ function apologize(name) {
   return `Sorry, ${name}.`;
 }
 
-module.exports = { greet, farewell, welcome, celebrate, thank, remind, apologize };
+function encourage(name) {
+  return `You've got this, ${name}!`;
+}
+
+module.exports = { greet, farewell, welcome, celebrate, thank, remind, apologize, encourage };
