@@ -23,7 +23,7 @@ function thank(name) {
 }
 
 function remind(name) {
-  return `Don't forget, ${name}!`;
+  return `Don't forget, ${name}...`;
 }
 
 module.exports = { greet, farewell, welcome, celebrate, thank, remind };
