@@ -1,7 +1,7 @@
 {
   "name": "@rpt/web",
   "private": true,
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "App that continues the repository's release line (stands in for oce-fe-harness apps/web)",
   "main": "index.js",
   "license": "Apache-2.0",

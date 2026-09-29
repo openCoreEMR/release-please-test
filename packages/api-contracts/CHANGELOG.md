@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.1.0...api-contracts-v1.2.0) (2026-09-29)
+
+
+### Features
+
+* **api-contracts:** add apologize() ([0e9f73b](https://github.com/openCoreEMR/release-please-test/commit/0e9f73b85d1202f8c9b3fd5f10ace466c9558998))
+
 ## [1.1.0](https://github.com/openCoreEMR/release-please-test/compare/api-contracts-v1.0.0...api-contracts-v1.1.0) (2026-09-29)
 
 
