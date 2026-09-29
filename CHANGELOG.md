@@ -1,5 +1,7 @@
 # Changelog
 
+This file is frozen at `1.4.2`, the last release of the repository as a single unit. From there on releases are per component: [apps/web/CHANGELOG.md](apps/web/CHANGELOG.md) for `web-v*`, [apps/operator/CHANGELOG.md](apps/operator/CHANGELOG.md) for `operator-v*`, and [packages/api-contracts/CHANGELOG.md](packages/api-contracts/CHANGELOG.md) for `api-contracts-v*`. Everything below is the shared history those three files continue.
+
 ## [1.4.2](https://github.com/openCoreEMR/release-please-test/compare/release-please-test-v1.4.1...release-please-test-v1.4.2) (2026-05-21)
 
 
