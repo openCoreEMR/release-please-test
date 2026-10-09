@@ -18,3 +18,20 @@ jobs:
     secrets:
       app-client-id: ${{ vars.RELEASE_PLEASE_CLIENT_ID }}
       app-private-key: ${{ secrets.RELEASE_PLEASE_PRIVATE_KEY }}
+
+  # The oce-fe-harness ADR-0053 §4.6 chaining shape, with echo legs: each
+  # fires only when its own component released, and reads that
+  # component's tag from release_outputs.
+  web-leg:
+    needs: release-please
+    if: ${{ contains(fromJSON(needs.release-please.outputs.paths_released), 'apps/web') }}
+    uses: ./.github/workflows/echo-release-leg.yml
+    with:
+      release_tag: ${{ fromJSON(needs.release-please.outputs.release_outputs)['apps/web--tag_name'] }}
+
+  operator-leg:
+    needs: release-please
+    if: ${{ contains(fromJSON(needs.release-please.outputs.paths_released), 'apps/operator') }}
+    uses: ./.github/workflows/echo-release-leg.yml
+    with:
+      release_tag: ${{ fromJSON(needs.release-please.outputs.release_outputs)['apps/operator--tag_name'] }}
