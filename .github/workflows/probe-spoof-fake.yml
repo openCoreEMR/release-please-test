@@ -1,0 +1,23 @@
+name: Probe Spoof Fake
+
+# A pull request's own job, named like the required check, that passes.
+# Probe for oce-fe-harness#676. Never merge into main.
+
+on:
+  pull_request:
+
+permissions: {}
+
+jobs:
+  check:
+    name: deploy pin-scope
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Pass, late when the head branch asks for it
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          case "$HEAD_REF" in
+            *slow-spoof) sleep 90 ;;
+          esac
+          echo 'the spoofed check passes'
