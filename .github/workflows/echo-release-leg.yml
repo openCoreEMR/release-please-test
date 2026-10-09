@@ -1,0 +1,28 @@
+# Stand-in for a release-chained leg (oce-fe-harness ADR-0053 §4.6): it
+# only reports the tag its caller passed, so a run shows which leg fired
+# and with what.
+name: Echo release leg
+
+on:
+  workflow_call:
+    inputs:
+      release_tag:
+        type: string
+        required: true
+
+permissions: {}
+
+jobs:
+  echo:
+    name: Leg for ${{ inputs.release_tag }}
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Report the tag
+        env:
+          RELEASE_TAG: ${{ inputs.release_tag }}
+        run: |
+          if [[ -z "$RELEASE_TAG" ]]; then
+            echo '::error::the caller passed an empty release tag'
+            exit 1
+          fi
+          printf 'release_tag=%s\n' "$RELEASE_TAG" | tee -a "$GITHUB_STEP_SUMMARY"
