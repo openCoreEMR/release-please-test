@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/openCoreEMR/release-please-test/compare/web-v1.5.0...web-v1.5.1) (2026-10-09)
+
+
+### Bug Fixes
+
+* **web:** note that this file drives a web-only release ([e037e8b](https://github.com/openCoreEMR/release-please-test/commit/e037e8b073fccdee876f87b0342df04d0d721d3c))
+
 ## [1.5.0](https://github.com/openCoreEMR/release-please-test/compare/web-v1.4.6...web-v1.5.0) (2026-09-29)
 
 
