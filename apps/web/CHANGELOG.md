@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.5.2](https://github.com/openCoreEMR/release-please-test/compare/web-v1.5.1...web-v1.5.2) (2026-10-21)
+
+
+### Bug Fixes
+
+* **web:** overridden entry for the one-commit PR ([b29a913](https://github.com/openCoreEMR/release-please-test/commit/b29a91356b6b7167d9bf1c0c4865ab1bd2d9a350))
+* **web:** overridden entry for the one-commit PR ([ea78a74](https://github.com/openCoreEMR/release-please-test/commit/ea78a74d4d5be84d915f69e02092cf29c0c687fa))
+* **web:** overridden entry for the two-commit PR ([98f1c6a](https://github.com/openCoreEMR/release-please-test/commit/98f1c6a2c23ca736f78e065f699b6780d10c5a3c))
+* **web:** overridden entry for the two-commit PR ([2308487](https://github.com/openCoreEMR/release-please-test/commit/23084874a3639ea5dfd25027a28522de45d57952))
+* **web:** overridden entry for the two-commit PR ([d459cef](https://github.com/openCoreEMR/release-please-test/commit/d459cef5a94531887e52865fa91a91cb8cc43422))
+
 ## [1.5.1](https://github.com/openCoreEMR/release-please-test/compare/web-v1.5.0...web-v1.5.1) (2026-10-09)
 
 
