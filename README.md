@@ -27,3 +27,5 @@ Releases before the split were repository-wide (`release-please-test-vX.Y.Z`); t
 - `welcome(name)` - Welcome someone
 - `celebrate(name)` - Congratulate someone
 - `thank(name)` - Thank someone
+
+Hermes was here
