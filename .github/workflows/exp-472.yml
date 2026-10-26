@@ -1,0 +1,19 @@
+# Scratch experiment for openCoreEMR/oce-srv-dev#472. Delete with the branch.
+name: Exp 472
+
+on:
+  pull_request:
+    types: [opened, synchronize, edited]
+    branches:
+      - exp/472-base
+
+concurrency:
+  group: exp-472-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: exp-check
+    runs-on: ubuntu-24.04
+    steps:
+      - run: sleep 60
