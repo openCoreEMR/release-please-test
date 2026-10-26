@@ -7,13 +7,9 @@ on:
     branches:
       - exp/472-base
 
-concurrency:
-  group: exp-472-${{ github.event.pull_request.number }}
-  cancel-in-progress: true
-
 jobs:
   check:
     name: exp-check
     runs-on: ubuntu-24.04
     steps:
-      - run: sleep 60
+      - run: sleep 180
